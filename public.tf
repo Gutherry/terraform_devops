@@ -16,6 +16,10 @@ resource "aws_subnet" "eks_subnet_public_1b" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "Devops subenet 1b"
+    Name        = "Devops subenet 1b",
+    Owner       = "Gutherry Ferreira"
+    Environment = "Production"
+    Department  = "IT"
+    Project     = "Migration"
   }
 }
