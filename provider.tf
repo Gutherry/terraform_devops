@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "treinamento-terraform-compass"
+    bucket = "space-terraform-anitya"
     key    = "dev/terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-1"
   }
 }
 
